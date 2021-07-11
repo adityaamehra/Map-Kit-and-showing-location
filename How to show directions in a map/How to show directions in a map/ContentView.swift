@@ -10,7 +10,7 @@ import MapKit
 
 struct ContentView: View{
     @State var tracking = MapUserTrackingMode.follow
-    @State var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 26.42160113654926, longitude: 80.32618734603572), span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2))
+    @State var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 90, longitude: 180), span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2))
     var body: some View {
         // MARK:-WAY 1
         /*
